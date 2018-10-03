@@ -30,7 +30,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- END: Subheader -->
 
                 <div class="m-content">
@@ -50,6 +49,7 @@
     </div>
 
     @include('admin.assets.js')
-
+    @include('sweetalert::alert')
+    
 </body>
 </html>
